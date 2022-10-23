@@ -1,0 +1,45 @@
+* {
+  font-family: "Roboto Mono", monospace;
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  width: 100%;
+  font-size: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1f363c;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+button {
+  border: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 300px;
+  cursor: pointer;
+  transition-duration: 200ms;
+  background-color: transparent;
+  width: 100%;
+  min-height: 50px;
+  min-width: 150px;
+  margin-bottom: 16px;
+}
+button:hover {
+  opacity: 0.6;
+}/*# sourceMappingURL=style.css.map */
