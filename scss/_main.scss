@@ -1,0 +1,5 @@
+.heightTestSection {
+  background-color: rgb(208, 208, 220);
+  @include section1;
+  height: calc(100vh - 100px);
+}

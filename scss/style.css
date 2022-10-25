@@ -42,4 +42,14 @@ button {
 }
 button:hover {
   opacity: 0.6;
+}
+
+.heightTestSection {
+  background-color: rgb(208, 208, 220);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
 }/*# sourceMappingURL=style.css.map */
